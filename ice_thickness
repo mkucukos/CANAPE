@@ -7,9 +7,12 @@ import numpy as np
 data = pd.DataFrame({
 
     'yearday' :     [320, 330, 340, 350, 360, 370, 380,390,400,410],
-    'mean ice thickness (m)' : [ '0.51', '0.62', '0.68', '0.73', '1.23', '0.81', '1','1.35','1.24','1.04'],
-    'max ice thikcness (m)' :    [ '7', '5.92', '9.31', '4.83', '11.3', '8.28', '7.61','8.85','11.34','7.37'],
-    'std ice thickness (m)' :  [ '0.66', '0.44', '0.46', '1.21', 'M', '0.51', '0.66','1.05','1.13',0.57],
+    'mean_ice_thickness' : [0.51,0.62,0.68,0.73,1.23,0.81,1,1.35,1.24,1.04],
+    'max_ice_thikcness' :    [7, 5.92, 9.31, 4.83, 11.3, 8.28,7.61,8.85,11.34,7.37],
+    'std_ice_thickness' :  [0.66, 0.44, 0.46, 1.21, 0.71, 0.51,0.66,1.05,1.13,0.57],
 })
 
-view the ice thickness
+# view the ice thickness
+
+# select mean ice thickness larger than 0.75
+data.loc[data.mean_ice_thickness >= 0.75]
