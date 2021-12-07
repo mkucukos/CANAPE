@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-# crete a sample dataframe named MooringT1
+# crete a sample dataframe for Mooring_T1
 data = pd.DataFrame({
 
     'yearday' :     [320, 330, 340, 350, 360, 370, 380,390,400,410],
