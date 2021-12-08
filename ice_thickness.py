@@ -5,10 +5,6 @@ import matplotlib.pyplot as plt
 import scipy.io
 
 
-
-f = h5py.File('somefile.mat','r')
-
-
 # crete a sample dataframe for Mooring_T1
 data = pd.DataFrame({
 
