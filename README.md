@@ -1,6 +1,6 @@
 # CANAPE
 editing the file
-The CANAPE experiment's codes 
+The CANAPE experiment's codes regarding ice thickness
 
 ```bash
 $ pip install -r requirements.txt
